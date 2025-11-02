@@ -1,0 +1,16 @@
+{
+  "name": "payroll-processor",
+  "version": "1.0.0",
+  "description": "Payroll PDF to summarized PDF reports",
+  "type": "module",
+  "main": "payrollProcessor.js",
+  "scripts": {
+    "start": "node payrollProcessor.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "jspdf": "^3.0.0",
+    "jspdf-autotable": "^3.8.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
